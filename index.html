@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login Page</title>
+  <link rel="stylesheet" href="index.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+
+</head>
+<body>
+  <div class="maincontainer">
+    <div class="loginsection">
+      <div class="logosection">
+        <img
+          src="https://cdn.prod.website-files.com/6515cadc7833e52ac5260d8c/67f67b0587bbd9ee159bd387_HotSpot%20logo%20with%20Brand%20Anchor_Horizontal%20RGB_OL-p-500.png"
+          alt="HotSpot Logo"
+        />
+        <h2>Login into your Account</h2>
+      </div>
+
+      <form class="fields">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="Enter Email Address" />
+
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter Password" />
+
+        <div class="options">
+            <section>
+                    <input type="checkbox" id="Remember" />
+                    <label for="Remember"> Remember Me</label>
+            </section>
+
+            <a href="#">Forgot Password?</a>
+        </div>
+
+        <button type="submit" class="login-btn">Login</button>
+
+        <div class="divider"><span>or</span></div>
+
+        <button class="google-btn"><i class="fa-brands fa-google"></i> Sign in with Google</button>
+        <button class="apple-btn"><i class="fa-brands fa-apple"></i> Sign in with Apple</button>
+        <button class="microsoft-btn"><i class="fa-brands fa-microsoft"></i> Sign in with Microsoft</button>
+
+
+        <p class="new-user">
+          New User? <a href="#">Click Here</a></p>
+        <p class="park-req"> Want to park your customers and employees? <a href="#">Click Here</a></p>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
