@@ -17,7 +17,6 @@ body {
 }
 
 .loginsection {
-  width: 90%;
   max-width: 400px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 1rem;
@@ -27,7 +26,6 @@ body {
 }
 
 .logosection {
-  text-align: left;
   margin-bottom: 1.5rem;
 }
 
@@ -73,6 +71,10 @@ body {
 .options a {
   text-decoration: none;
   color: #ff7070;
+}
+.options a:hover{
+  text-decoration: underline;
+  cursor: pointer;
 }
 .options section{
     display: flex;
@@ -152,8 +154,12 @@ margin-right: 10px;
   text-decoration: none;
 }
 .park-req{
-     text-align: center;
+  text-align: center;
   font-size: 0.85rem;
+}
+.new-user a:hover,.park-req a:hover{
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 
