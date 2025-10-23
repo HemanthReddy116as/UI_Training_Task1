@@ -74,6 +74,10 @@ body {
   text-decoration: none;
   color: #ff7070;
 }
+.options a:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
 .options section{
     display: flex;
     align-items: center;
@@ -154,6 +158,10 @@ margin-right: 10px;
 .park-req{
      text-align: center;
   font-size: 0.85rem;
+}
+.new-user a:hover,.park-req a:hover{
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 
