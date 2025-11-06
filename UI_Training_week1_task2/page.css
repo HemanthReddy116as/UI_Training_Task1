@@ -8,19 +8,32 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    padding:20px;
+}
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    height: 100vh;
 }
 .header {
     background-color: #6a89ff;
     color: white;
-    padding: 20px 30px;
-    height:20vh;
+    padding: 2em 2em;
+    flex: 1;
+    display: flex;
+    align-items: center;
 }
+
+.header h1 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
 .main-container {
     display: flex;
-    flex: 1;
+    flex: 3.5;
     gap: 20px;
-    overflow: auto;
+    overflow: hidden;
     padding: 20px;
     background-color: #f5f5f5;
 }
@@ -32,63 +45,84 @@ body {
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     display: flex;
     flex-direction: column;
+    gap: 20px;
     min-width: 250px;
 }
+
 .sidebar h2 {
     font-size: 22px;
-    margin-bottom: 20px;
     font-weight: 400;
+    flex-shrink: 0;
 }
+
 .sidebar-list {
     overflow-y: auto;
     flex: 1;
-    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    list-style: none;
 }
+
 .sidebar-list li {
     padding: 12px 15px;
+    border-radius: 4px;
+    cursor: pointer;
 }
+
 .sidebar-list li:hover {
     background: rgba(255,255,255,0.2);
 }
+
 .content-area {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    overflow: hidden;
 }
+
 .main-content {
-    background:#b24cfa;
+    background: #b24cfa;
     color: white;
     padding: 30px;
-    flex: 2;
+    flex: 1.7;
 }
+
 .main-content h2 {
     font-size: 26px;
     margin-bottom: 15px;
     font-weight: 400;
 }
+
 .bottom-row {
     display: flex;
     gap: 20px;
-    flex: 1;
+    flex: 1.3;
+    min-height: 0;
 }
+
 .related-content {
-    background: #6a89ff ;
+    background: #6a89ff;
     color: white;
     padding: 25px;
     flex: 1;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
-.related-content h2{
+
+.related-content h2 {
     font-size: 22px;
     font-weight: 400;
 }
 .footer {
-    background: #5a6c7d ;
+    background: #5a6c7d;
     color: white;
     padding: 30px;
-    height: 15vh;
+    flex: 1;
+    display: flex;
+    align-items: center;
 }
+
 .footer h2 {
     font-size: 20px;
     font-weight: 400;
