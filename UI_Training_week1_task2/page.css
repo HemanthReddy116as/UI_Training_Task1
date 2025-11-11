@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    gap: 20px;
+}
+.header {
+    background-color: #6a89ff;
+    color: white;
+    padding-left: 30px;
+    flex: 4;
+    display: flex;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.main-container {
+    display: flex;
+    flex: 14;
+    gap: 20px;
+    overflow: hidden;
+    padding: 0 20px;
+    background-color: white;
+}
+.sidebar {
+    background: #2ecc71;
+    color: white;
+    width: 300px;
+    padding: 25px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-width: 250px;
+}
+
+.sidebar h2 {
+    font-size: 22px;
+    font-weight: 400;
+    flex-shrink: 0;
+}
+
+.sidebar-list {
+    overflow-y: auto;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    list-style: none;
+}
+
+.sidebar-list li {
+    padding: 12px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.sidebar-list li:hover {
+    background: rgba(255,255,255,0.2);
+}
+
+.content-area {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow: hidden;
+}
+
+.main-content {
+    background: #b24cfa;
+    color: white;
+    padding: 30px;
+    flex: 4;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.main-content h2 {
+    font-size: 26px;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+.bottom-row {
+    display: flex;
+    gap: 20px;
+    flex: 4;
+    min-height: 0;
+}
+
+.related-content {
+    background: #6a89ff;
+    color: white;
+    padding: 25px;
+    flex: 1;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.related-content h2 {
+    font-size: 22px;
+    font-weight: 400;
+}
+.footer {
+    background: #5a6c7d;
+    color: white;
+    padding: 30px;
+    flex: 3;
+    display: flex;
+    align-items: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+    font-weight: 400;
+}
