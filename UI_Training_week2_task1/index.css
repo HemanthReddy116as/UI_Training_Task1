@@ -277,3 +277,26 @@
 .onedrive-icon {
     color: #0364b8;
 }
+
+.search-container {
+    display: flex;
+}
+
+@media(max-width:400px) {
+    .search-container {
+        display: none;
+    }
+
+}
+
+
+.help-buttons button {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.ico {
+    height: 14px;
+    width: 14px;
+}

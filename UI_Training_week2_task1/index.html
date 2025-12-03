@@ -15,26 +15,26 @@
         <div class="row h-100">
             <div class="d-flex flex-column align-items-center sidenav h-100">
 
-                <div class="sidebar-item mb-4">
-                    <i data-lucide="grid" class="sidebar-icon"></i>
+                <div class=" mt-3">
+                    <i data-lucide="grid" ></i>
                 </div>
 
-                <div class="sidebar-item">
-                    <i data-lucide="home" class="sidebar-icon"></i>
+                <div >
+                    <i data-lucide="home" ></i>
                     <p class="sidenav-iconame">Home</p>
                 </div>
 
-                <div class="sidebar-item">
-                    <i data-lucide="plus-circle" class="sidebar-icon"></i>
+                <div >
+                    <i data-lucide="plus-circle" ></i>
                     <p class="sidenav-iconame">Create</p>
                 </div>
 
-                <div class="sidebar-item">
-                    <i data-lucide="folder" class="sidebar-icon"></i>
+                <div >
+                    <i data-lucide="folder" ></i>
                     <p class="sidenav-iconame">My Content</p>
                 </div>
                 <div>
-                    <img src="./icons/appicon.png" class=" sidenavicons bi bi-house-door">
+                    <img src="./icons/appicon.png" class=" sidenavicons">
                     <p class="sidenav-iconame">Apps</p>
                 </div>
 
@@ -74,7 +74,7 @@
                 </div>
 
                 <div>
-                    <img src="./icons/more.png" class="sidenaviconimage">
+                    <i data-lucide="Ellipsis" ></i>
                 </div>
 
             </div>
@@ -85,8 +85,8 @@
                     <nav class="navbar">
                         <a class="navbar-brand text-danger fw-bold">Microsoft 365</a>
                         <div
-                            class="w-50 bg-white d-flex align-items-center border border-1 border-dark-subtle rounded-3">
-                            <i data-lucide="search" class="px-3 text-danger navicon"></i>
+                            class="w-50 bg-white  align-items-center border border-1 border-dark-subtle rounded-3 search-container">
+                            <i data-lucide="search" class="text-danger mx-2 navicon"></i>
                             <input class="py-2 me-2 searchinput w-100" type="search" placeholder="Search"
                                 aria-label="Search" />
                         </div>
@@ -201,13 +201,20 @@
                             </div>
                         </div>
 
-                        <div class="row mb-5 text-start flex-row">
-                            <div class="col mt-5 mb-5 gap-4 btn-con px-5">
+                        <div class="row text-start flex-row">
+                            <div class="col mt-5 mb-2 gap-4 btn-con px-5">
                                 <button class="btn border-secondary rounded-pill mx-1 mb-1">Productivity</button>
                                 <button class="btn border-secondary rounded-pill mx-1 mb-1">Utilities</button>
                                 <button class="btn border-secondary rounded-pill mx-1 mb-1">Education</button>
                                 <button class="btn border-secondary rounded-pill mx-1 mb-1">4 more+</button>
                             </div>
+                        </div>
+                        <div class="d-flex justify-content-end  mb-5 help-buttons">
+                            <button class=" border-secondary d-flex align-items-center px-4 py-1 mb-1 text-light bg-dark" >
+                                <i data-lucide="message-square " class="ico"  ></i>
+                                Feedback</button>
+                            <button class="border-0 d-flex align-items-center px-4 py-1 mb-1 bg-success text-light">
+                                <i data-lucide="headset" class="ico"></i>Need Help?</button>
                         </div>
                     </div>
                 </div>
