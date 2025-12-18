@@ -13,17 +13,11 @@
     <div class="flex h-screen bg-[#c7c4c4] overflow-hidden">
         <div class="w-[70px] bg-[#f0f0f0] flex-shrink-0 overflow-y-auto flex flex-col items-center [@media(max-width:320px)]:hidden">
             <style>
-                .sidenav-item {
-                    width: 100%;
-                    border-left: solid 4px transparent;
-                    padding: 10px 0;
-                    transition: all 0.2s;
-                }
-                .sidenav-item:hover {
+                /* .sidenav-content:hover {
                     background-color: rgb(232, 230, 230);
                     border-left-color: red;
                     cursor: pointer;
-                }
+                } */
                 .scrollbar-hide::-webkit-scrollbar {
                     display: none;
                 }
@@ -33,91 +27,91 @@
                 }
             </style>
 
-            <div class="sidenav-item mt-3">
+            <div class="w-full border-l-4 border-transparent py-2 transition-all duration-200 hover:bg-[rgb(232,230,230)] hover:border-l-red-500 cursor-pointer mt-3">
                 <div class="flex flex-col items-center">
                     <i data-lucide="grid" class="w-6 h-6"></i>
                 </div>
             </div>
 
-            <div class="sidenav-item">
+            <div class="w-full border-l-4 border-transparent py-2 transition-all duration-200 hover:bg-[rgb(232,230,230)] hover:border-l-red-500 cursor-pointer">
                 <div class="flex flex-col items-center">
                     <i data-lucide="home" class="w-6 h-6"></i>
-                    <p class="text-[10px] mt-1 text-center px-1">Home</p>
+                    <p class="text-[10px]  text-center px-1">Home</p>
                 </div>
             </div>
 
-            <div class="sidenav-item">
+            <div class="w-full border-l-4 border-transparent py-2 transition-all duration-200 hover:bg-[rgb(232,230,230)] hover:border-l-red-500 cursor-pointer">
                 <div class="flex flex-col items-center">
                     <i data-lucide="plus-circle" class="w-6 h-6"></i>
-                    <p class="text-[10px] mt-1 text-center px-1">Create</p>
+                    <p class="text-[10px]  text-center px-1">Create</p>
                 </div>
             </div>
 
-            <div class="sidenav-item">
+            <div class="w-full border-l-4 border-transparent py-2 transition-all duration-200 hover:bg-[rgb(232,230,230)] hover:border-l-red-500 cursor-pointer">
                 <div class="flex flex-col items-center">
                     <i data-lucide="folder" class="w-6 h-6"></i>
-                    <p class="text-[10px] mt-1 text-center px-1">My Content</p>
+                    <p class="text-[10px]  text-center px-1">My Content</p>
                 </div>
             </div>
 
-            <div class="sidenav-item">
-                <div class="flex flex-col items-center">
+            <div class="w-full border-l-4 border-transparent py-2 transition-all duration-200 hover:bg-[rgb(232,230,230)] hover:border-l-red-500 cursor-pointer">
+                <div class="flex flex-col items-center gap-1">
                     <img src="./icons/appicon.png" class="w-6 h-6" alt="Apps">
-                    <p class="text-[10px] mt-1 text-center px-1">Apps</p>
+                    <p class="text-[10px]  text-center px-1">Apps</p>
                 </div>
             </div>
 
-            <div class="sidenav-item">
-                <div class="flex flex-col items-center">
+            <div class="w-full border-l-4 border-transparent py-2 transition-all duration-200 hover:bg-[rgb(232,230,230)] hover:border-l-red-500 cursor-pointer">
+                <div class="flex flex-col items-center gap-1">
                     <img src="./icons/adminicon.png" class="h-6" alt="Admin">
-                    <p class="text-[10px] mt-1 text-center px-1">Admin</p>
+                    <p class="text-[10px]  text-center px-1">Admin</p>
                 </div>
             </div>
 
-            <div class="sidenav-item">
-                <div class="flex flex-col items-center">
+            <div class="w-full border-l-4 border-transparent py-2 transition-all duration-200 hover:bg-[rgb(232,230,230)] hover:border-l-red-500 cursor-pointer">
+                <div class="flex flex-col items-center gap-1">
                     <img src="./icons/outlook.png" class="h-6" alt="Outlook">
-                    <p class="text-[10px] mt-1 text-center px-1">Outlook</p>
+                    <p class="text-[10px]  text-center px-1">Outlook</p>
                 </div>
             </div>
 
-            <div class="sidenav-item">
-                <div class="flex flex-col items-center">
+            <div class="w-full border-l-4 border-transparent py-2 transition-all duration-200 hover:bg-[rgb(232,230,230)] hover:border-l-red-500 cursor-pointer">
+                <div class="flex flex-col items-center gap-1">
                     <img src="./icons/teams.png" class="h-6" alt="Teams">
-                    <p class="text-[10px] mt-1 text-center px-1">Teams</p>
+                    <p class="text-[10px]  text-center px-1">Teams</p>
                 </div>
             </div>
 
-            <div class="sidenav-item">
-                <div class="flex flex-col items-center">
+            <div class="w-full border-l-4 border-transparent py-2 transition-all duration-200 hover:bg-[rgb(232,230,230)] hover:border-l-red-500 cursor-pointer">
+                <div class="flex flex-col items-center gap-1">
                     <img src="./icons/word.png" class="h-6" alt="Word">
-                    <p class="text-[10px] mt-1 text-center px-1">Word</p>
+                    <p class="text-[10px]  text-center px-1">Word</p>
                 </div>
             </div>
 
-            <div class="sidenav-item">
-                <div class="flex flex-col items-center">
+            <div class="w-full border-l-4 border-transparent py-2 transition-all duration-200 hover:bg-[rgb(232,230,230)] hover:border-l-red-500 cursor-pointer">
+                <div class="flex flex-col items-center gap-1">
                     <img src="./icons/excel.png" class="h-6" alt="Excel">
-                    <p class="text-[10px] mt-1 text-center px-1">Excel</p>
+                    <p class="text-[10px]  text-center px-1">Excel</p>
                 </div>
             </div>
 
-            <div class="sidenav-item">
-                <div class="flex flex-col items-center">
+            <div class="w-full border-l-4 border-transparent py-2 transition-all duration-200 hover:bg-[rgb(232,230,230)] hover:border-l-red-500 cursor-pointer">
+                <div class="flex flex-col items-center gap-1">
                     <img src="./icons/powerpoint.png" class="h-6" alt="PowerPoint">
-                    <p class="text-[10px] mt-1 text-center px-1">PowerPoint</p>
+                    <p class="text-[10px]  text-center px-1">PowerPoint</p>
                 </div>
             </div>
 
-            <div class="sidenav-item">
-                <div class="flex flex-col items-center">
+            <div class="w-full border-l-4 border-transparent py-2 transition-all duration-200 hover:bg-[rgb(232,230,230)] hover:border-l-red-500 cursor-pointer">
+                <div class="flex flex-col items-center gap-1">
                     <img src="./icons/onenote.png" class="h-6" alt="OneNote">
-                    <p class="text-[10px] mt-1 text-center px-1">OneNote</p>
+                    <p class="text-[10px]  text-center px-1">OneNote</p>
                 </div>
             </div>
 
-            <div class="sidenav-item">
-                <div class="flex flex-col items-center">
+            <div class="w-full border-l-4 border-transparent py-2 transition-all duration-200 hover:bg-[rgb(232,230,230)] hover:border-l-red-500 cursor-pointer">
+                <div class="flex flex-col items-center gap-1">
                     <i data-lucide="ellipsis" class="w-6 h-6"></i>
                 </div>
             </div>
@@ -153,7 +147,7 @@
                     </span>
                     <i data-lucide="x" class="w-5 h-5 cursor-pointer ml-auto flex-shrink-0" onclick="document.getElementById('notification').style.display='none'"></i>
                 </div>
-                <div class="flex-1 bg-[#f0f0f0] overflow-y-auto scrollbar-hide pb-16">
+                <div class="flex-1 bg-[#f0f0f0] overflow-y-auto ">
                     <div class="mt-12 px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20">
                         <div class="flex items-center justify-between mb-6">
                             <h4 class="text-xl md:text-2xl font-semibold">Apps</h4>
