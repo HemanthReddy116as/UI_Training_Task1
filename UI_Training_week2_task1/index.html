@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft 365 - Apps</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <div class="container-fluid main text-center">
+        <div class="row h-100">
+            <div class="d-flex flex-column align-items-center sidenav h-100">
+
+                <div class=" mt-3">
+                    <i data-lucide="grid" ></i>
+                </div>
+
+                <div >
+                    <i data-lucide="home" ></i>
+                    <p class="sidenav-iconame">Home</p>
+                </div>
+
+                <div >
+                    <i data-lucide="plus-circle" ></i>
+                    <p class="sidenav-iconame">Create</p>
+                </div>
+
+                <div >
+                    <i data-lucide="folder" ></i>
+                    <p class="sidenav-iconame">My Content</p>
+                </div>
+                <div>
+                    <img src="./icons/appicon.png" class=" sidenavicons">
+                    <p class="sidenav-iconame">Apps</p>
+                </div>
+
+                <div>
+                    <img src="./icons/adminicon.png" class="sidenaviconimage">
+                    <p class="sidenav-iconame">Admin</p>
+                </div>
+
+                <div>
+                    <img src="./icons/outlook.png" class="sidenaviconimage">
+                    <p class="sidenav-iconame">Outlook</p>
+                </div>
+
+                <div>
+                    <img src="./icons/teams.png" class="sidenaviconimage">
+                    <p class="sidenav-iconame">Teams</p>
+                </div>
+
+                <div>
+                    <img src="./icons/word.png" class="sidenaviconimage">
+                    <p class="sidenav-iconame">Word</p>
+                </div>
+
+                <div>
+                    <img src="./icons/excel.png" class="sidenaviconimage">
+                    <p class="sidenav-iconame">Excel</p>
+                </div>
+
+                <div>
+                    <img src="./icons/powerpoint.png" class="sidenaviconimage">
+                    <p class="sidenav-iconame">PowerPoint</p>
+                </div>
+
+                <div>
+                    <img src="./icons/onenote.png" class="sidenaviconimage">
+                    <p class="sidenav-iconame">OneNote</p>
+                </div>
+
+                <div>
+                    <i data-lucide="Ellipsis" ></i>
+                </div>
+
+            </div>
+
+
+            <div class="contentcontainer h-100">
+                <div class="row navbarcontainer">
+                    <nav class="navbar">
+                        <a class="navbar-brand text-danger fw-bold">Microsoft 365</a>
+                        <div
+                            class="w-50 bg-white  align-items-center border border-1 border-dark-subtle rounded-3 search-container">
+                            <i data-lucide="search" class="text-danger mx-2 navicon"></i>
+                            <input class="py-2 me-2 searchinput w-100" type="search" placeholder="Search"
+                                aria-label="Search" />
+                        </div>
+                        <ul class="d-none d-md-flex align-items-center gap-4 list-unstyled mb-0">
+                            <li><i data-lucide="calendar-check" class="navicon"></i></li>
+                            <li><i data-lucide="settings" class="navicon"></i></li>
+                            <li><i data-lucide="help-circle" class="navicon"></i></li>
+                            <li class="border border-black border-2 rounded-circle p-2 bg-black bg-opacity-10">
+                                <button class="px-2 border-0 profilebtn">S</button>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="row bdy-con">
+                    <div class="py-3 d-flex justify-content-around w-100 align-items-center notifycon">
+                        <img src="./icons/microsoftoffice.png" class="sidenaviconimage px-1" alt="Microsoft Office">
+                        <i data-lucide="arrow-right"></i>
+                        <img src="./icons/microsoft365.png" class="sidenaviconimage px-1" alt="Microsoft 365">
+                        <span class="notificationFont">The Office app is becoming the new Microsoft 365 app. Your home
+                            to find, create and share your content and ideas. <span class="text-danger">Learn
+                                More</span></span>
+                        <i data-lucide="x" class="crossicon ms-auto"></i>
+                    </div>
+
+                    <div class="mainContentContainer">
+                        <div class=" mainappscontainer ">
+                            <div class="d-flex mt-1 addAppscontainer justify-content-between  align-content-center">
+                                <h4>Apps</h4>
+                                <button class="addappBtn btn-danger px-3">
+                                    <i data-lucide="plus-square"
+                                        style="width: 16px; height: 16px; display: inline-block; vertical-align: middle;"></i>
+                                    Add apps
+                                </button>
+                            </div>
+
+                            <div class="row gap-3 mt-5 flex-wrap w-100 justify-content-start">
+                                <div class=" col-4 col-lg-2 cardstyle text-center py-4 border-0 shadow-sm bg-white">
+                                    <img src="./icons/teams.png" class="card-img-top mx-auto app-image" alt="Teams">
+                                    <h6 class="mt-3 fw-normal">Teams</h6>
+                                </div>
+                                <div class=" col-4 col-lg-2 cardstyle text-center py-4 border-0 shadow-sm bg-white">
+                                    <img src="./icons/word.png" class="card-img-top mx-auto app-image" alt="Word">
+                                    <h6 class="mt-3 fw-normal">Word</h6>
+                                </div>
+                                <div class=" col-4 col-lg-2 cardstyle text-center py-4 border-0 shadow-sm bg-white">
+                                    <img src="./icons/excel.png" class="card-img-top mx-auto app-image" alt="Excel">
+                                    <h6 class="mt-3 fw-normal">Excel</h6>
+                                </div>
+                                <div class=" col-4 col-lg-2 cardstyle text-center py-4 border-0 shadow-sm bg-white">
+                                    <img src="./icons/powerpoint.png" class="card-img-top mx-auto app-image"
+                                        alt="PowerPoint">
+                                    <h6 class="mt-3 fw-normal">PowerPoint</h6>
+                                </div>
+                                <div class=" col-4 col-lg-2 cardstyle text-center py-4 border-0 shadow-sm bg-white">
+                                    <img src="./icons/outlook.png" class="card-img-top mx-auto app-image" alt="Outlook">
+                                    <h6 class="mt-3 fw-normal">Outlook</h6>
+                                </div>
+                                <div class=" col-4 col-lg-2 cardstyle text-center py-4 border-0 shadow-sm bg-white">
+                                    <img src="./icons/Onedrive.png" class="card-img-top mx-auto app-image"
+                                        alt="OneDrive">
+                                    <h6 class="mt-3 fw-normal">OneDrive</h6>
+                                </div>
+                            </div>
+
+                            <div class="mt-3 text-end">
+                                <button class="bg-transparent border-0 text-danger">
+                                    All apps <i data-lucide="arrow-right"
+                                        style="width: 16px; height: 16px; display: inline-block; vertical-align: middle;"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="row mb-0 px-5">
+                            <h5 class="text-start">Previously added</h5>
+                            <div class="row d-flex flex-wrap">
+                                <div
+                                    class="col-md-4 previouslyaddedcard d-flex align-items-center gap-3 justify-content-start">
+                                    <img src="./icons/Appstudio.png" class="app-prev-image" alt="App Studio">
+                                    <p>App Studio</p>
+                                </div>
+                                <div
+                                    class="col-md-4 previouslyaddedcard d-flex align-items-center gap-3 justify-content-start">
+                                    <img src="./icons/assignmenticon.png" class="app-prev-image" alt="Assignments">
+                                    <p>Assignments</p>
+                                </div>
+                                <div
+                                    class="col-md-4 previouslyaddedcard d-flex align-items-center gap-3 justify-content-start">
+                                    <img src="./icons/excelfull.png" class="app-prev-image" alt="Excel">
+                                    <p>Excel</p>
+                                </div>
+                                <div
+                                    class="col-md-4 previouslyaddedcard d-flex align-items-center gap-3 justify-content-start">
+                                    <img src="./icons/powerbi.png" class="app-prev-image" alt="Power BI">
+                                    <p>Power BI</p>
+                                </div>
+                                <div
+                                    class="col-md-4 previouslyaddedcard d-flex align-items-center gap-3 justify-content-start">
+                                    <img src="./icons/powerpointfull.png" class="app-prev-image" alt="PowerPoint">
+                                    <p>PowerPoint</p>
+                                </div>
+                                <div
+                                    class="col-md-4 previouslyaddedcard d-flex align-items-center gap-3 justify-content-start">
+                                    <img src="./icons/taskmodule.png" class="app-prev-image" alt="Task Module Sample">
+                                    <p>Task Module Sample</p>
+                                </div>
+                                <div
+                                    class="col-md-4 previouslyaddedcard d-flex align-items-center gap-3 justify-content-start">
+                                    <img src="./icons/wordfull.png" class="app-prev-image" alt="Word">
+                                    <p>Word</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row text-start flex-row">
+                            <div class="col mt-5 mb-2 gap-4 btn-con px-5">
+                                <button class="btn border-secondary rounded-pill mx-1 mb-1">Productivity</button>
+                                <button class="btn border-secondary rounded-pill mx-1 mb-1">Utilities</button>
+                                <button class="btn border-secondary rounded-pill mx-1 mb-1">Education</button>
+                                <button class="btn border-secondary rounded-pill mx-1 mb-1">4 more+</button>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-end  mb-5 help-buttons">
+                            <button class=" border-secondary d-flex align-items-center px-4 py-1 mb-1 text-light bg-dark" >
+                                <i data-lucide="message-square " class="ico"  ></i>
+                                Feedback</button>
+                            <button class="border-0 d-flex align-items-center px-4 py-1 mb-1 bg-success text-light">
+                                <i data-lucide="headset" class="ico"></i>Need Help?</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>

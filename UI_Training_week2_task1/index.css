@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+    background-color: #c7c4c4;
+    overflow: hidden;
+}
+
+.navicon {
+    height: 24px;
+    width: 24px;
+}
+
+.profilebtn {
+    font-size: 16px;
+    background: none;
+}
+
+.searchinput {
+    outline: none;
+    background: none;
+    border: none;
+}
+
+.sidenav {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    padding: 0;
+    background-color: #f0f0f0;
+    flex-shrink: 0;
+    overflow-y: scroll;
+    width: 70px;
+}
+
+.navbarcontainer {
+    background-color: #f0f0f0;
+    height: 80px;
+}
+
+.sidenav::-webkit-scrollbar {
+    display: none;
+}
+
+.sidenavicons {
+    font-size: 20px;
+    font-weight: lighter;
+    width: 24px;
+    height: 24px;
+}
+
+.sidenav-iconame {
+    font-size: 10px;
+    margin-bottom: 0;
+    margin-top: 4px;
+    text-align: center;
+    padding: 0 4px;
+}
+
+
+.sidenaviconimage {
+    height: 24px;
+}
+
+@media (max-width:768px) {
+    .sidenav {
+        height: 100% !important;
+    }
+
+    .sidenavicons {
+        width: 35% !important;
+        height: 40%;
+        font-size: 18px;
+    }
+}
+
+@media (max-width:368px) {
+    .sidenavicons {
+        height: 50%;
+    }
+}
+
+.sidenav div {
+    width: 100%;
+    border-left: solid 4px transparent;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.sidenav div:hover {
+    background-color: rgb(232, 230, 230);
+    border-left-color: red;
+    cursor: pointer;
+}
+
+.contentcontainer {
+    background-color: #f0f0f0;
+    flex: 1;
+}
+
+.bdy-con {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    border-top-left-radius: 10px;
+    height: calc(100vh - 80px);
+}
+
+.notifycon {
+    background: linear-gradient(to right, #fbe6e8, #cbddff);
+    border-top-left-radius: 10px;
+    min-height: 8%;
+}
+
+.notificationFont {
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+.crossicon {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.mainContentContainer {
+    height: 90%;
+    background-color: #f0f0f0;
+    overflow-y: scroll;
+}
+
+.mainContentContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.mainContentContainer {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.addAppscontainer {
+    height: 20%;
+    width: 100%;
+
+}
+
+.previouslyaddedcard {
+    height: 70px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.previouslyaddedcard:hover {
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(10, 17, 17, 0.4);
+    border-radius: 10px;
+}
+
+.previouslyaddedcard p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.addAppscontainer h4 {
+    font-size: 22px;
+}
+
+.addAppscontainer button {
+    font-size: 12px;
+}
+
+.btn-con button {
+    font-size: 12px;
+}
+
+.btn-con button:hover {
+    background-color: black;
+    color: white;
+}
+
+@media(max-width:320px) {
+    .sidenav {
+        display: none;
+    }
+
+    .contentcontainer {
+        width: 100%;
+    }
+}
+
+.app-image {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+}
+
+.app-prev-image {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.cardstyle {
+    
+    transition: all 0.3s ease;
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cardstyle:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.cardstyle h6 {
+    font-size: 14px;
+    color: #323130;
+}
+
+.card-title {
+    font-size: 1.2em;
+}
+
+@media(max-width:992px) {
+    .cardstyle {
+        width: 30%;
+        min-height: 130px;
+    }
+
+    .cardstyle h6 {
+        font-size: 13px;
+    }
+
+    .app-image {
+        width: 48px;
+        height: 48px;
+    }
+}
+
+@media(max-width:576px) {
+    .cardstyle {
+        width: 45%;
+        min-height: 120px;
+    }
+
+    .cardstyle h6 {
+        font-size: 12px;
+    }
+
+    .app-image {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+.addappBtn {
+    border: none;
+    border-radius: 4px;
+}
+
+.app-icon {
+    color: #5b5fc7;
+}
+
+.word-icon {
+    color: #2b579a;
+}
+
+.excel-icon {
+    color: #217346;
+}
+
+.powerpoint-icon {
+    color: #d24726;
+}
+
+.outlook-icon {
+    color: #0078d4;
+}
+
+.onedrive-icon {
+    color: #0364b8;
+}
+
+.search-container {
+    display: flex;
+}
+.mainappscontainer{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media(max-width:400px) {
+    .search-container {
+        display: none;
+
+    }
+    .cardstyle{
+        width: 100%;
+    }
+
+}
+
+
+.help-buttons button {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.ico {
+    height: 14px;
+    width: 14px;
+}
